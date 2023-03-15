@@ -21,7 +21,7 @@ resource "aws_s3_bucket" "b" {
 }
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket#private-bucket-w-tags
 resource "aws_s3_bucket_acl" "example" {
-  bucket = "aws_s3_bucket.b.id"
+  bucket = aws_s3_bucket.b.id
   acl    = "private"
   
 }
