@@ -1,2 +1,2 @@
 
-# Modelo simples de codigo terraform para subir um bucket S3 
+# Modelo simples de codigo terraform para criar um armazenamento AWS bucket S3. 
